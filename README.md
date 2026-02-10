@@ -4,7 +4,7 @@
 **.env file**
 ```
 SERVER_HOST=0.0.0.0
-SERVER_PORT=1987
+SERVER_PORT=8000
 
 DB_USER=postgres
 DB_PASSWORD=postgres
