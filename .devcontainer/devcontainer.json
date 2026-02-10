@@ -1,0 +1,25 @@
+{
+  "name": "ProjectConfiguration",
+  "containerEnv": {
+    "TZ": "Europe/Moscow"
+  },
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "backend",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [1987, 8000, 5173, 5432, 80],
+  "postCreateCommand": "pip install --upgrade pip && pip install -r backend/requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "cweijan.vscode-postgresql-client2",
+        "ms-python.black-formatter",
+        "ms-python.vscode-pylance",
+        "ms-python.isort"
+      ]
+    }
+  }
+}
