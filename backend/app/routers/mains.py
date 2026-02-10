@@ -15,4 +15,4 @@ async def status():
 @router.get("/favicon.ico")
 async def favicon():
     """FAVICON INIT app"""
-    return FileResponse("static/favicon.ico")
+    return FileResponse("app/static/favicon.ico")
